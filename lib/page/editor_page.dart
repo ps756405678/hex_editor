@@ -1,9 +1,8 @@
-import 'dart:convert';
-
 import 'package:file_selector/file_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hex_editor/widget/editor.dart';
+import 'package:hex_editor/widget/sandbox.dart';
 
 class EditorPage extends StatefulWidget {
   const EditorPage({super.key});
